@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    /* Tamaño base para la fuente a 10px */
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #f7f8fb; 
+    font-size: 2rem;
+    line-height: 2;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.encabezado {
+    background-image: url("../assets/Path\ 2.png");
+    color: #ffffff;
+}
+.encabezado a {
+    text-decoration: none;
+    padding: 1% 2%;
+    color: #ffffff
+}
+.encabezado a:hover {
+    background-color: #4b4b4b;
+    transition: ease-in-out 0.2s;
+}
+.barra {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+}
+.registrarse {
+    background-color: #ffb03a;
+    border-radius: 5%;
+}
+.navegacion {
+    grid-column: 2 / 6;
+}
+.intro {
+    margin-left: 10%;
+    max-width: 30%;
+}
+.imagen-intro {
+    max-width: 30%;
+    max-height: 30%;
+    flex-direction: row;
+}
